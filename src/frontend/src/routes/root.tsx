@@ -1,3 +1,7 @@
+import PrimarySearchAppBar from "../components/PrimarySearchAppBar"
+
 export default function Root() {
-  return <div>Hello world!</div>
+  return (
+    <PrimarySearchAppBar />
+  );
 }
